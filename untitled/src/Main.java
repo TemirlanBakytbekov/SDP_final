@@ -8,17 +8,7 @@ public class Main {
         SwordDecorator sword3 = new PoisonSwordDecorator(new SimpleSword());
         System.out.println(sword3.damage());
         System.out.println(sword3.description());
-
-
-        CharacterFactory characterFactory = new HandFighterFactory();
-        Character character = characterFactory.createCharacter();
-        System.out.println(character.name());
-
-        CharacterFactory characterFactory1 = new KnightFactory();
-        Character character1 = characterFactory1.createCharacter();
-        System.out.println(character1.sword());
-
-        CharacterFactory characterFactory2 = new GoldenKnightFactory();
+смпспсго tory2 = new GoldenKnightFactory();
         Character character2 = characterFactory2.createCharacter();
         System.out.println(character2.sword());
 
